@@ -1,0 +1,377 @@
+body{
+    margin: 0px;
+    background-color: lightgrey;
+}
+
+#body-header{
+    height: 62vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;                            /*help to put the image in center */
+    background-image: url(image/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.horizantal-fit{
+
+    list-style: none;
+    text-align: center;
+    
+}
+.horizantal-fit li{
+    display: inline-block;
+    margin: 0px 30px 30px 0px;
+    padding-top: 5px;
+    margin-top: 15px;
+    
+}
+.horizantal-fit li a{
+    color: white;
+    transition: color 0.8s; border-bottom: 4s;
+    text-decoration: none;
+
+}
+.horizantal-fit li a:hover{
+    color: aqua;
+    border-bottom: 1px solid rgb(179, 226, 245);
+    
+}
+
+.main-head{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#main-text{
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    
+    
+}
+#header1{
+    color: white;
+    text-align: center;
+   
+}
+.set-elements{
+    margin-left: -40px;
+}
+.set-elements li a{
+    color: white;
+    text-decoration: none;
+}
+
+.set-elements li{
+    display: inline-block;
+    margin: 15px;
+    margin-top: 0vh;
+   
+}
+.set-elements li a i{
+    font-size: 1.1rem;
+    padding:10px;
+    
+   
+}
+.set-elements li a:hover{
+
+    box-shadow: 0px 0px 6px 3px aqua;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+#my-image{
+    height: 14rem;
+    width: 14rem;
+    margin: auto;
+    margin-top: -17vh;
+    box-shadow: 0px 0px 10px 7px white;
+    border-radius: 50%;
+    
+    
+}
+#my-image img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+
+}
+#about-line{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+#about-line span{
+    color: blue;
+}
+
+.heading{
+    font-size: 2rem;
+    text-align: center;
+     margin: 90px auto 40px auto;     /*top right: ; bottom left */
+    color: blue;
+}
+.main-skills{
+    height: 40vh;
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills-progress{
+   width: 70%;
+   height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.progress-out{
+    border:5px solid black;
+    border-radius: 1.5rem;
+    height: 1.5rem;
+    width:8rem ;
+    background-color: white;
+
+}
+#progress-others{
+    width: 90%;
+    height: 1.55rem;
+    border-radius: 3rem;
+    background-color: blue;
+}
+#language span{
+    color: white;
+    font-size: 1rem;
+}
+#language span b{
+   padding-left: 10px;
+}
+.experience-skills-progress{
+   width: 70%;
+   height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.experience-progress-out{
+    border:5px solid black;
+    border-radius: 1.5rem;
+    height: 1.5rem;
+    width:8rem ;
+    background-color: white;
+
+}
+#experience-progress-others{
+    width: 80%;
+    height: 1.55rem;
+    border-radius: 3rem;
+    background-color: brown;
+}
+#experience-language span{
+    color: white;
+    font-size: 1rem;
+}
+#experience-language span b{
+    padding-left: 10px;
+}
+.experience2-skills-progress{
+   width: 70%;
+   height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.experience2-progress-out{
+    border:5px solid black;
+    border-radius: 1.5rem;
+    height: 1.5rem;
+    width:8rem ;
+    background-color: white;
+
+}
+#experience2-progress-others{
+    width: 45%;
+    height: 1.55rem;
+    border-radius: 3rem;
+    background-color: orange;
+}
+#experience2-language span{
+    color: white;
+    font-size: 1rem;
+}
+#experience2-language span b{
+   padding-left: 10px;
+}
+
+.experience3-skills-progress{
+   width: 70%;
+   height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.experience3-progress-out{
+    border:5px solid black;
+    border-radius: 1.5rem;
+    height: 1.5rem;
+    width:8rem ;
+    background-color: white;
+
+}
+#experience3-progress-others{
+    width: 73%;
+    height: 1.55rem;
+    border-radius: 3rem;
+    background-color: green;
+}
+#experience3-language span{
+    color: white;
+    font-size: 1rem;
+}
+#experience3-language span b{
+    padding-left: 10px;
+}
+
+.experience4-skills-progress{
+   width: 70%;
+   height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.experience4-progress-out{
+    border:5px solid black;
+    border-radius: 1.5rem;
+    height: 1.5rem;
+    width:8rem ;
+    background-color: white;
+
+}
+#experience4-progress-others{
+    width: 65%;
+    height: 1.55rem;
+    border-radius: 3rem;
+    background-color: darkviolet;
+}
+#experience4-language span{
+    color: white;
+    font-size: 1rem;
+}
+#experience4-language span b{
+    padding-left: 10px;
+}
+
+
+.experience5-skills-progress{
+   width: 70%;
+   height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.experience5-progress-out{
+    border:5px solid black;
+    border-radius: 1.5rem;
+    height: 1.5rem;
+    width:8rem ;
+    background-color: white;
+
+}
+#experience5-progress-others{
+    width: 85%;
+    height: 1.55rem;
+    border-radius: 3rem;
+    background-color: red;
+}
+#experience5-language span{
+    color: white;
+    font-size: 1rem;
+}
+#experience5-language span b{
+   padding-left: 10px;
+}
+.sec-heading-mb{
+    font-size: 2rem;
+    text-align: center;
+     margin: 40px auto 40px auto;     /*top right bottom left */
+    color: blue;
+}
+.timeline{
+    position: relative;
+    width: 70%;
+    border: 2px solid black;
+    margin: 0px 15% 0px 15%;
+}
+.timeline-box{
+    position: relative;
+    border: 2px solid black;
+    width: 40%;
+    min-height: 150px;
+    left: 5%;
+    margin :5px;
+
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+.droped{
+    position: absolute;
+    left: 50%;
+    border: 3px dashed black;
+    width: 0px;
+    height: 75%;
+    top: 10%;
+}
+.plane{
+    transform: rotate(90deg);
+    font-size: 2rem;
+    position: sticky;
+    top: 25%;
+}
+.timeline-box::after{
+   
+     content: '';
+    position: absolute;
+    top: 30%;
+    right: -13.1%;
+    border-radius: 50%;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color:blue;
+    z-index: 1;                 /* which div is visible 1or2*/
+
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -9.5%;
+    border-radius: 50%;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color:blue;
+    z-index: 1;                /* which div is visible 1or2*/
+}
+
+    
+
+
+
+
